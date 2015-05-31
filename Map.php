@@ -52,10 +52,10 @@
 	
 	<?php	
 		
-		$server = "FSUDBOARD1\SQLEXPRESSDUNDAS";
-		$sqlusername = "TechNet2";
-		$sqlpassword = "Solution@01";
-		$database = "technet";
+		$server = "";
+		$sqlusername = "";
+		$sqlpassword = "";
+		$database = "";
 		
 		$connection_string ='DRIVER={SQL SERVER};SERVER=' . $server . ';DATABASE=' . $database;
 		$connection = odbc_connect($connection_string, $sqlusername, $sqlpassword);
